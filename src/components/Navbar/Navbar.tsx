@@ -12,14 +12,14 @@ const Navbar = () => {
         <img src="/menu.png" height={20}  alt="" />
         <img src="expand.svg" alt="" />
         <div className="notification">
-          <img src="/notification.svg" alt="" />
+          <img src="/notifications.svg" alt="" />
           <span>1</span>
         </div>
         <div className="user">
           <img src="https://cdn.pixabay.com/photo/2024/02/28/04/53/man-8601195_1280.png" alt="" />
           <span>Myth</span>
         </div>
-        <img src="setting.svg"alt="" />
+        <img className="gif"src="setting.gif" height={26}alt="" />
       </div>
     </div>
   )
