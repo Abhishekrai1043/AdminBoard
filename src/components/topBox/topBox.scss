@@ -17,18 +17,23 @@
                   border-radius: 50%;
                   object-fit: cover;
                 }
-                .usetTexts{
+                .userTexts{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
                     .username{
-
+                    font-size: 14px;
+                    font-weight: 500;
                     }
                     .email{
+                        font-size: 12px;
 
                     }
                 }
+            }
                 .amount{
-
+                  font-weight: 500;
                 }
             }
         }
     }
-}
